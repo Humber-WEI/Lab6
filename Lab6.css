@@ -1,0 +1,54 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0px;
+    padding:0px;
+    width: 50%;
+}
+img {
+    float: left;
+    margin-right: 30px;
+}
+.title1 {
+    font-style: italic;
+    color: #ef9c00;
+    text-shadow: 2px 2px 2px black;
+    font-size:40px;
+    margin: 10px;
+}
+.title2 {
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+main p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+main p:first-child::first-letter {
+    font-size: 50px;
+}
+.title3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.title4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.title5 span {
+    font-weight: bold;
+}
+footer {
+    text-align:center;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:green;
+}
+a:link {
+    color:orange;
+}
