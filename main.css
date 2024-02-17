@@ -1,0 +1,24 @@
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-align: center;
+}
+main { 
+    clear: left; 
+}
+main h1 { 
+    font-size: 170%; 
+}
+main h2 { 
+    font-size: 130%; 
+}
+main p.indent { 
+    text-indent: 2em; 
+}
+main a.date_passed { 
+    color: gray; 
+}
+footer p {
+    font-size: 80%;
+    text-align: right;
+}
